@@ -1,5 +1,12 @@
 /* Decent Defaults */
 
+@media screen {
+  
+}
+*{
+  font-family: futura;
+}
+
 img,
 video {
   width: 100%;
