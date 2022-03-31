@@ -42,8 +42,7 @@ p {
   float: left;
   margin: 0 0 1em 0;
   padding: 0;
-  background-color: #f2f2f2;
-  border-bottom: 1px solid #ccc;
+  background-color: navy;
   position: fixed;
 }
 #nav ul {
@@ -54,19 +53,21 @@ p {
 }
 #nav li {
   float: left;
+  justify-content: center;
 }
 #nav li a {
   display: block;
   padding: 8px 15px;
   text-decoration: none;
-  font-weight: bold;
-  color: #069;
-  border-right: 1px solid #ccc;
-}
-#nav li:first-child a {
-  border-left: 1px solid #ccc;
+  color: white;
+  border-right: 1px solid navy;
 }
 #nav li a:hover {
-  color: #c00;
-  background-color: #fff;
+  color: yellow;
+  background-color: navy;
+}
+
+ol {
+  margin: 1rem;
+  color: white;
 }
