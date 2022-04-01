@@ -7,7 +7,6 @@
 }
 
 img {
-  size: 50%;
   margin: 0.5rem;
 }
 video {
@@ -39,15 +38,16 @@ p {
 }
 .nav {
   width: 100%;
-  float: left;
+  display: flex;
+  align-items: center;
   margin: 0 0 1em 0;
   padding: 0;
   background-color: navy;
-  position: fixed;
+  position: sticky;
+  top: 0;
   overflow: hidden;
 }
 .nav a {
-  float: left;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -61,20 +61,18 @@ p {
 ol {
   margin: 1rem;
   color: white;
-  max-width: 50ch;
+  max-width: 30ch;
 }
 .logo-image {
-  width: 80px;
-  height: 100px;
+  max-width: 5rem;
   border-radius: 50%;
   margin-top: -6px;
 }
 iframe.youtube {
   width: 100%;
-  height: 150%;
   aspect-ratio: 16/9;
   max-width: 30rem;
-  margin: 0 25px;
+  display: block;
 }
 button {
   width: 10rem;
