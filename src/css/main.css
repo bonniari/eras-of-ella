@@ -71,7 +71,21 @@ ol {
 }
 iframe.youtube {
   width: 100%;
-  aspect-ratio: 4/3;
+  height: 150%;
+  aspect-ratio: 16/9;
   max-width: 30rem;
   margin: 0 25px;
+}
+button {
+  width: 10rem;
+  height: 3rem;
+  background-color: transparent;
+  color: white;
+  border: 0.1rem solid white;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  margin: 1rem 1rem;
+}
+button:hover {
+  color: yellow;
 }
